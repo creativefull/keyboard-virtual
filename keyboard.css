@@ -1,0 +1,50 @@
+.ckeyboard {
+	width: 670px;
+	background-color: #888;
+	padding: 10px;
+}
+.ckeyboard div {
+	height: 35px;
+	padding:2px;
+	margin-right: 2px;
+	margin-bottom: 5px;
+	background-color: #333;
+	display: inline-block;
+	color: #FFF;
+	font-size:12px;
+	cursor: pointer;
+
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.ckeyboard div:active, .ckeyboard > div.active {
+	background-color: #F80;
+}
+.span1 {
+	width: 40px;
+}
+.span2 {
+	width: 65px;
+}
+.span3 {
+	width: 75px;
+}
+.span4 {
+	width: 120px;
+}
+.span5 {
+	width: 155px;
+}
+.space {
+	width: 285px;
+}
+.text-center {
+	text-align: center;
+}
+.position-center {
+	margin:0px auto !important;
+}

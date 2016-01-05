@@ -1,0 +1,26 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="./keyboard.css">
+		<title>KEYBOARD VIRTUAL</title>
+		<script type="text/javascript" src="./jquery.min.js"></script>
+		<script type="text/javascript" src="./keyboard.js"></script>
+	</head>
+	<body>
+		<div class="canvas">
+			<form action="" method="POST">
+				<input type="text" class="example" style="padding:10px; width:500px">
+				<input type="text" class="example1" style="padding:10px; width:500px">
+				<button type="submit">SUBMIT</button>
+			</form>
+		</div>
+		<br>
+		<div class="box-keyboard">
+		</div>
+		<script type="text/javascript">
+			$(".box-keyboard").keyboard();
+			$(".example").keypress(function(e) {
+				console.log(e)
+			})
+		</script>
+	</body>
+</html>
